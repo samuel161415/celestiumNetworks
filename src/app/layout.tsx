@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Betfin — Liquidity Pool",
+  title: "Celestium — Liquidity Pool",
   description: "Provide liquidity for game payouts",
 };
 

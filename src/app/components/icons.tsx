@@ -194,7 +194,19 @@ export function CoinIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" {...props}>
       <circle cx="12" cy="12" r="10" fill="#FFC800" />
-      <text x="12" y="16" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#0a0a14">b</text>
+      <text x="12" y="16" textAnchor="middle" fontSize="11" fontWeight="bold" fill="#0a0a14">
+        C
+      </text>
+    </svg>
+  );
+}
+
+/** Person outline — mobile bottom nav Affiliate (reference UI) */
+export function PersonNavIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="12" cy="8" r="4" />
+      <path d="M4 20v-1.5a5.5 5.5 0 0 1 5.5-5.5h5A5.5 5.5 0 0 1 20 18.5V20" />
     </svg>
   );
 }

@@ -7,7 +7,6 @@ import {
   HelpIcon,
   LiquidityIcon,
   LockIcon,
-  MenuIcon,
   PoolIcon,
   SparklesIcon,
   TrendingIcon,
@@ -26,9 +25,6 @@ export default function Home() {
     <div className="w-full h-full p-2 md:p-3 lg:p-4 gap-2 md:gap-3 lg:gap-4 flex flex-col 2xl:px-0 relative">
       {/* Top header card */}
       <div className="border border-border rounded-lg bg-background-lighter p-4 flex items-center gap-4 flex-wrap">
-        <button className="md:hidden h-8 w-8 inline-flex items-center justify-center rounded-md hover:bg-background-light">
-          <MenuIcon className="w-5 h-5" />
-        </button>
         <div className="flex items-center gap-3 flex-1 min-w-0">
           <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
             <LiquidityIcon className="w-6 h-6" />
