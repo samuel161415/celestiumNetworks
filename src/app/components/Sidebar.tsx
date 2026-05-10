@@ -53,7 +53,7 @@ const MENU: MenuItem[] = [
   { label: "Statistics", href: "/statistics", icon: ChartIcon },
   {
     label: "Documentation",
-    href: "https://betfin.gitbook.io/betfin-public",
+    href: "https://celestium-docs.gitbook.io/celestium-docs",
     icon: DocsIcon,
     external: true,
   },
@@ -242,6 +242,7 @@ export function Sidebar({ mobileOpen, onMobileClose }: Props) {
         />
       )}
       <aside
+        id="mobile-sidebar-drawer"
         className={`md:hidden fixed inset-y-0 left-0 z-50 w-72 p-2 transition-transform duration-200 ${
           mobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
