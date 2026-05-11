@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
+import { Footer } from "./Footer";
 import { Logo } from "./Logo";
 import { Sidebar } from "./Sidebar";
 import { MenuIcon, PersonNavIcon, PlugIcon, StakingIcon, WalletIcon } from "./icons";
@@ -46,6 +47,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <main className="relative w-full flex-1 pb-[calc(4.25rem+env(safe-area-inset-bottom,0))] md:pb-0">
           {children}
         </main>
+
+        <Footer />
 
         {/* Mobile bottom navigation (reference: menu, staking, affiliate, wallet) */}
         <nav
