@@ -94,8 +94,7 @@ export function Sidebar({ mobileOpen, onMobileClose }: Props) {
   }
 
   function isActive(href: string) {
-    if (href === "/") return pathname === "/";
-    return pathname === href || pathname.startsWith(href + "/");
+    return pathname === href;
   }
 
   const content = (
