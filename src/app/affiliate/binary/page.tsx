@@ -1,5 +1,5 @@
-import { Placeholder } from "../../components/Placeholder";
+import { UnderDevelopment } from "../../components/UnderDevelopment";
 
 export default function Page() {
-  return <Placeholder title="Binary Tree" description="Binary referral hierarchy." />;
+  return <UnderDevelopment />;
 }

@@ -1,5 +1,5 @@
-import { Placeholder } from "../components/Placeholder";
+import { UnderDevelopment } from "../components/UnderDevelopment";
 
 export default function Page() {
-  return <Placeholder title="Affiliate Overview" description="Your referral activity at a glance." />;
+  return <UnderDevelopment />;
 }

@@ -57,7 +57,12 @@ const MENU: MenuItem[] = [
     icon: DocsIcon,
     external: true,
   },
-  { label: "Support", icon: SupportIcon },
+  {
+    label: "Support",
+    href: "mailto:contact@celestium.digital",
+    icon: SupportIcon,
+    external: true,
+  },
 ];
 
 type Props = {
@@ -168,6 +173,7 @@ export function Sidebar({ mobileOpen, onMobileClose }: Props) {
                 href={item.href}
                 target="_blank"
                 rel="noreferrer"
+                onClick={onMobileClose}
                 className="flex w-full items-center gap-2 rounded-lg p-3 h-10 text-sm bg-sidebar-item/10 hover:bg-sidebar-item/20 transition-colors"
               >
                 <item.icon className="w-4 h-4 shrink-0" />
