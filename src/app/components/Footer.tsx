@@ -3,7 +3,7 @@ import { CoinIcon } from "./icons";
 
 const COLS = [
   {
-    title: "Betfin Games",
+    title: "Celestium Games",
     links: ["Crypto Predict", "Roulette", "Lucky Round", "Stones", "Lottery"],
   },
   {
@@ -11,7 +11,7 @@ const COLS = [
     links: ["Conservative staking", "Dynamic staking", "Affiliate & binary matching", "Become a partner"],
   },
   {
-    title: "About Betfin",
+    title: "About Celestium",
     links: ["Official contracts", "Audits", "Legal disclaimers"],
   },
 ];
@@ -23,7 +23,7 @@ export function Footer() {
         <div className="md:col-span-1 flex flex-col gap-3 text-foreground">
           <Logo />
           <p className="text-xs text-muted-foreground max-w-[260px]">
-            This site is part of the BetFin decentralized ecosystem
+            This site is part of the Celestium decentralized ecosystem
           </p>
         </div>
         {COLS.map((col) => (
